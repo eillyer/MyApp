@@ -18,7 +18,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
-        NSArray *tagsArray = @[@"90后", @"价格优惠(11)", @"服务好(12)", @"手脚麻利", @"形象好(21)", @"神准时", @"为人亲切(9)"];
+        NSArray *tagsArray = @[@"90后",@"90后",@"90后", @"价格优惠(11)", @"服务好(12)", @"手脚麻利", @"形象好(21)", @"神准时", @"为人亲切(9)"];
         UserServiceAllTypeView * tagsView = [[UserServiceAllTypeView alloc]initWithFrame:CGRectMake(0, 0, 300, 400) forAllTypeArr:tagsArray];
     tagsView.center = CGPointMake(kScreenWidth/2, kScreenHeight/2);
     [self.view addSubview:tagsView];
