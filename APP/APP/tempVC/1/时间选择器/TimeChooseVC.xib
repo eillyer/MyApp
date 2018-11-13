@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TimeChooseVC">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f4x-AR-1uk">
+                    <rect key="frame" x="50" y="50" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="6FA-gZ-JZz"/>
+                        <constraint firstAttribute="width" constant="50" id="gJC-le-9cy"/>
+                    </constraints>
+                    <state key="normal" title="时间1"/>
+                    <connections>
+                        <action selector="time1:" destination="-1" eventType="touchUpInside" id="ouK-eW-cba"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WCE-0z-LR1">
+                    <rect key="frame" x="50" y="130" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="8sK-b3-ebB"/>
+                        <constraint firstAttribute="height" constant="50" id="fkL-nu-GqW"/>
+                    </constraints>
+                    <state key="normal" title="时间2"/>
+                    <connections>
+                        <action selector="time2:" destination="-1" eventType="touchUpInside" id="jE3-aW-aGc"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bi0-o9-Z3b">
+                    <rect key="frame" x="50" y="210" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="INz-aQ-yff"/>
+                        <constraint firstAttribute="width" constant="50" id="qML-rE-QNr"/>
+                    </constraints>
+                    <state key="normal" title="时间3"/>
+                    <connections>
+                        <action selector="time3:" destination="-1" eventType="touchUpInside" id="tgQ-LQ-ql4"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ya4-sf-xPP">
+                    <rect key="frame" x="50" y="300" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="RON-Eq-PqZ"/>
+                        <constraint firstAttribute="width" constant="50" id="eff-rw-bdt"/>
+                    </constraints>
+                    <state key="normal" title="时间4"/>
+                    <connections>
+                        <action selector="time4:" destination="-1" eventType="touchUpInside" id="Zcn-JM-Qop"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="WCE-0z-LR1" firstAttribute="top" secondItem="f4x-AR-1uk" secondAttribute="bottom" constant="30" id="0la-cw-e90"/>
+                <constraint firstItem="ya4-sf-xPP" firstAttribute="top" secondItem="bi0-o9-Z3b" secondAttribute="bottom" constant="40" id="45G-mN-HIL"/>
+                <constraint firstItem="WCE-0z-LR1" firstAttribute="centerX" secondItem="f4x-AR-1uk" secondAttribute="centerX" id="ECr-7d-oBb"/>
+                <constraint firstItem="ya4-sf-xPP" firstAttribute="centerX" secondItem="f4x-AR-1uk" secondAttribute="centerX" id="GIr-g0-hGf"/>
+                <constraint firstItem="bi0-o9-Z3b" firstAttribute="centerX" secondItem="f4x-AR-1uk" secondAttribute="centerX" id="R91-4t-EQs"/>
+                <constraint firstItem="f4x-AR-1uk" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="50" id="UwL-ZI-cqf"/>
+                <constraint firstItem="f4x-AR-1uk" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="50" id="biZ-gz-f8i"/>
+                <constraint firstItem="bi0-o9-Z3b" firstAttribute="top" secondItem="WCE-0z-LR1" secondAttribute="bottom" constant="30" id="mIb-vp-Rtu"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

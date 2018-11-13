@@ -1,0 +1,29 @@
+//
+//  OpenAPPAlertView.h
+//  com.homing.alwayshome
+//
+//  Created by julong on 2017/5/30.
+//  Copyright © 2017年 eillyer. All rights reserved.
+//
+
+typedef void(^CancelActionBlock)();
+
+#import <UIKit/UIKit.h>
+
+@interface OpenAPPAlertView : UIView
+
+@property (nonatomic,copy)CancelActionBlock cancelActionBlock;
+
+
+/**
+ * 创建弹出视图
+ * @param cancelTitle 取消按钮标题
+ * @param cancelBlock 取消按钮block
+ */
+- (OpenAPPAlertView *)initWithwithCancelTitle:(NSString *)cancelTitle
+                              WithCancelBlock:(void (^)())cancelBlock;
+/**
+ * 视图弹出
+ */
+- (void)show;
+@end

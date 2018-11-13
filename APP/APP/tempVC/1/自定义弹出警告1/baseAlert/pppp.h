@@ -1,0 +1,13 @@
+//
+//  pppp.h
+//  APP
+//
+//  Created by eillyer on 2018/10/27.
+//  Copyright © 2018年 eillyer. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface pppp : UIView
++(pppp *)CustomView;
+@end
