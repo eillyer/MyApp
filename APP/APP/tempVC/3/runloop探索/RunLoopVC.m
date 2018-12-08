@@ -26,7 +26,7 @@
     使用runloop
     当滑动的时候设置runloop；设置图片是放在runloop的NSDefaultRunloopMode；意味着，当滑动的时候是在主线程中，runloop是不会调NSDefaultRunloopMode，当停止滑动时（主线程停止了），NSDefaultRunloopMode才会被执行。
  
-    如：
+    如： 需要再详解一下
         UIImage *downLoadImage = ...
         [self.avatarImageView performSelector:@selector(@setImage:) 设置图片
                               withObject:downLoadImage              哪个图片
