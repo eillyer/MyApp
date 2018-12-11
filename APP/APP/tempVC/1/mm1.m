@@ -57,7 +57,7 @@
 
 
 #import "randomTagsview.h"
-
+#import "AdvertisView.h"
 
 
 
@@ -119,6 +119,7 @@
                                 @"引导页的新手指南",
                                 @"距离传感",
                                 @"随机标签",
+                                @"广告",
                                 @"待续。。。"]];
     
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
@@ -300,6 +301,13 @@
 //            DLog(@"asdf");
 //        }];
 //    }
+    
+    if ([str isEqualToString:@"广告"]) {
+        AdvertisView *ad = [AdvertisView CustomView];
+        ad.url = @"https://www.baidu.com";
+        [ad showtime:5 image:@"https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=4211498564,2067436186&fm=15&gp=0.jpg" frame:CGRectMake(0, 0, kScreenWidth, kScreenHeight) inview:[UIApplication sharedApplication].keyWindow];
+        
+    }
     
     if ([str isEqualToString:@"待续。。。"]) {
 

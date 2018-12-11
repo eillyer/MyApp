@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3196FF8D8D3E3CC72E88CD41 /* libPods-APP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A78A1F52B85EA1144F2BAEA8 /* libPods-APP.a */; };
+		52B8F06921BFBA8B00DECCB3 /* AdvertisView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B8F06721BFBA8A00DECCB3 /* AdvertisView.m */; };
+		52B8F06A21BFBA8B00DECCB3 /* AdvertisView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52B8F06821BFBA8B00DECCB3 /* AdvertisView.xib */; };
 		BB157AC22140FF44002FA63A /* Julichuangan.m in Sources */ = {isa = PBXBuildFile; fileRef = BB157AC02140FF44002FA63A /* Julichuangan.m */; };
 		BB157AC32140FF44002FA63A /* Julichuangan.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB157AC12140FF44002FA63A /* Julichuangan.xib */; };
 		BB20682F205BB0BC0074706B /* ARViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB20682D205BB0BC0074706B /* ARViewController.m */; };
@@ -170,7 +172,6 @@
 		BBDCDA1E211C181D0034F264 /* VpnHeaper.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDCDA1D211C181D0034F264 /* VpnHeaper.m */; };
 		BBEF855221141B670068903C /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = BBEF855021141B660068903C /* 1.png */; };
 		BBEF855321141B670068903C /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = BBEF855121141B660068903C /* 2.png */; };
-		BBEF855521141BA70068903C /* 123456.ipa in Resources */ = {isa = PBXBuildFile; fileRef = BBEF855421141BA70068903C /* 123456.ipa */; };
 		BBFCB90D2006F87F001BFE8F /* MyProgressVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFCB90B2006F87F001BFE8F /* MyProgressVC.m */; };
 		BBFCB90E2006F87F001BFE8F /* MyProgressVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBFCB90C2006F87F001BFE8F /* MyProgressVC.xib */; };
 		BBFCB9122006F8AD001BFE8F /* LeafProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFCB9102006F8AD001BFE8F /* LeafProgressView.m */; };
@@ -209,6 +210,9 @@
 
 /* Begin PBXFileReference section */
 		18CB06698AD1E6F489B5C821 /* Pods-APP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APP.release.xcconfig"; path = "Pods/Target Support Files/Pods-APP/Pods-APP.release.xcconfig"; sourceTree = "<group>"; };
+		52B8F06621BFBA8A00DECCB3 /* AdvertisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvertisView.h; sourceTree = "<group>"; };
+		52B8F06721BFBA8A00DECCB3 /* AdvertisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvertisView.m; sourceTree = "<group>"; };
+		52B8F06821BFBA8B00DECCB3 /* AdvertisView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdvertisView.xib; sourceTree = "<group>"; };
 		A78A1F52B85EA1144F2BAEA8 /* libPods-APP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-APP.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB157ABF2140FF44002FA63A /* Julichuangan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Julichuangan.h; sourceTree = "<group>"; };
 		BB157AC02140FF44002FA63A /* Julichuangan.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Julichuangan.m; sourceTree = "<group>"; };
@@ -475,7 +479,6 @@
 		BBDCDA1D211C181D0034F264 /* VpnHeaper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VpnHeaper.m; sourceTree = "<group>"; };
 		BBEF855021141B660068903C /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		BBEF855121141B660068903C /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
-		BBEF855421141BA70068903C /* 123456.ipa */ = {isa = PBXFileReference; lastKnownFileType = file; path = 123456.ipa; sourceTree = "<group>"; };
 		BBFCB90A2006F87F001BFE8F /* MyProgressVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyProgressVC.h; sourceTree = "<group>"; };
 		BBFCB90B2006F87F001BFE8F /* MyProgressVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyProgressVC.m; sourceTree = "<group>"; };
 		BBFCB90C2006F87F001BFE8F /* MyProgressVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyProgressVC.xib; sourceTree = "<group>"; };
@@ -541,6 +544,16 @@
 				18CB06698AD1E6F489B5C821 /* Pods-APP.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		52B8F06521BFBA5200DECCB3 /* 广告 */ = {
+			isa = PBXGroup;
+			children = (
+				52B8F06621BFBA8A00DECCB3 /* AdvertisView.h */,
+				52B8F06721BFBA8A00DECCB3 /* AdvertisView.m */,
+				52B8F06821BFBA8B00DECCB3 /* AdvertisView.xib */,
+			);
+			path = "广告";
 			sourceTree = "<group>";
 		};
 		BB157ABE2140FF19002FA63A /* 距离传感 */ = {
@@ -678,7 +691,6 @@
 		BB8F2B021FF345F40080C54B /* APP */ = {
 			isa = PBXGroup;
 			children = (
-				BBEF855421141BA70068903C /* 123456.ipa */,
 				BBEF855021141B660068903C /* 1.png */,
 				BBEF855121141B660068903C /* 2.png */,
 				BB73B0512115507900974F7A /* 321 */,
@@ -956,6 +968,7 @@
 		BB8F2F921FF34E990080C54B /* 1 */ = {
 			isa = PBXGroup;
 			children = (
+				52B8F06521BFBA5200DECCB3 /* 广告 */,
 				BB7D0F9C219ABA7F00DF432B /* 随机tags */,
 				BB157ABE2140FF19002FA63A /* 距离传感 */,
 				BBFCB9092006F82D001BFE8F /* 陀螺仪检查 */,
@@ -1698,6 +1711,7 @@
 				BB8F30621FF34E990080C54B /* HomeMainCell.xib in Resources */,
 				BB8F2F911FF34DB80080C54B /* runloop的内部伪代码.png in Resources */,
 				BB8F306A1FF34E990080C54B /* IMG_4678.jpg in Resources */,
+				52B8F06A21BFBA8B00DECCB3 /* AdvertisView.xib in Resources */,
 				BB8F2E741FF34D420080C54B /* FirstCome.xib in Resources */,
 				BB8F30401FF34E990080C54B /* The3DTouchViewController.xib in Resources */,
 				BB8F306F1FF34E990080C54B /* opopoPass@2x.png in Resources */,
@@ -1723,7 +1737,6 @@
 				BB6D7F28212CFCA400501B3E /* ImageZhuanView.xib in Resources */,
 				BB206830205BB0BC0074706B /* ARViewController.xib in Resources */,
 				BB8F2F8C1FF34DB80080C54B /* mm2.xib in Resources */,
-				BBEF855521141BA70068903C /* 123456.ipa in Resources */,
 				BB8F304A1FF34E990080C54B /* mm1.xib in Resources */,
 				BB8F30891FF34E990080C54B /* ImageAndMovEditCell.xib in Resources */,
 				BBFCB9162006F92D001BFE8F /* flower.png in Resources */,
@@ -1872,6 +1885,7 @@
 				BB8F2E621FF34CFC0080C54B /* SDCollectionViewCell.m in Sources */,
 				BBFCB9262006FB35001BFE8F /* YGGravity.m in Sources */,
 				BB79A4F621845CFC00D1DE04 /* pppp.m in Sources */,
+				52B8F06921BFBA8B00DECCB3 /* AdvertisView.m in Sources */,
 				BB8F304D1FF34E990080C54B /* SoundPlayerVC.m in Sources */,
 				BB8107FB20197136007E14FE /* MainCell.m in Sources */,
 				BB8F30661FF34E990080C54B /* TimeChooseVC.m in Sources */,
@@ -2081,12 +2095,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ZY74M33TZ6;
+				DEVELOPMENT_TEAM = PUP67F4YPY;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/APP/tempVC/2/自用服务器/主文件/shadowsocks",
 				);
-				GCC_PREFIX_HEADER = /Users/dongdongqi/Desktop/test/APP/APP/APP/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = /Users/test/Documents/GitHub/MyApp/APP/APP/PrefixHeader.pch;
 				INFOPLIST_FILE = APP/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -2106,12 +2120,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ZY74M33TZ6;
+				DEVELOPMENT_TEAM = PUP67F4YPY;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/APP/tempVC/2/自用服务器/主文件/shadowsocks",
 				);
-				GCC_PREFIX_HEADER = /Users/dongdongqi/Desktop/test/APP/APP/APP/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = /Users/test/Documents/GitHub/MyApp/APP/APP/PrefixHeader.pch;
 				INFOPLIST_FILE = APP/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
