@@ -2100,7 +2100,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/APP/tempVC/2/自用服务器/主文件/shadowsocks",
 				);
-				GCC_PREFIX_HEADER = /Users/test/Documents/GitHub/MyApp/APP/APP/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/APP/PrefixHeader.pch";
 				INFOPLIST_FILE = APP/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -2125,7 +2125,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/APP/tempVC/2/自用服务器/主文件/shadowsocks",
 				);
-				GCC_PREFIX_HEADER = /Users/test/Documents/GitHub/MyApp/APP/APP/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/APP/PrefixHeader.pch";
 				INFOPLIST_FILE = APP/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
